@@ -23,7 +23,7 @@ export default async function Home() {
                         I build apps, websites and hardware for consumers. Currently building something new at Entrepreneur First.
                         <br />
                         <br />
-                        <a className="link" href="mrjonhudson.com">
+                        <a className="link" href="https://mrjonhudson.com">
                             Checkout my portfolio page
                         </a>
                         .

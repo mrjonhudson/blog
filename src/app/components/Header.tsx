@@ -9,16 +9,16 @@ const Header = () => {
                 <div className="flex flex-row w-[768px] gap-3 justify-between">
                     <h1 className="text-3xl font-semibold">blog.mrjonhudson</h1>
                     <div className="flex flex-row gap-5">
-                        <Link className="flex items-center justify-center text-3xl text-gray-500" href={""}>
+                        <Link className="flex items-center justify-center text-3xl text-gray-500 hover:text-[var(--dark-void)]" href={""}>
                             <FaLinkedin />
                         </Link>
-                        <Link className="flex items-center justify-center text-3xl text-gray-500" href={""}>
+                        <Link className="flex items-center justify-center text-3xl text-gray-500 hover:text-[var(--dark-void)]" href={""}>
                             <FaXTwitter />
                         </Link>
-                        <Link className="flex items-center justify-center text-3xl text-gray-500" href={""}>
+                        <Link className="flex items-center justify-center text-3xl text-gray-500 hover:text-[var(--dark-void)]" href={""}>
                             <FaInstagram />
                         </Link>
-                        <Link className="flex items-center justify-center text-3xl text-gray-500" href={""}>
+                        <Link className="flex items-center justify-center text-3xl text-gray-500 hover:text-[var(--dark-void)]" href={""}>
                             <FaEnvelope />
                         </Link>
                     </div>
