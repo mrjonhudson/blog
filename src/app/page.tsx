@@ -19,7 +19,7 @@ export default async function Home() {
             <Header />
             <div className="flex justify-center p-5">
                 {/* <NotionRenderer blockMap={page} /> */}
-                <div className="flex flex-col w-[768px] gap-3 h-min-screen">
+                <div className="flex flex-col w-screen md:w-[768px] gap-3 h-min-screen">
                     <p className="pt-5">
                         {"I build apps, websites and hardware for consumers. Currently building something new at "}
                         <span className="hover:font-bold hover:text-[var(--ef-orange)] hover:bg-[var(--ef-purple)]">{"Entrepreneur First"}</span>

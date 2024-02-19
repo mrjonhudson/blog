@@ -21,9 +21,8 @@ const Page = async () => {
             <Header />
             <div className="flex justify-center w-full">
                 {/* <NotionRenderer blockMap={page} /> */}
-                <div className="flex justify-start w-[768px] flex-col">
+                <div className="flex justify-start w-screen md:w-[768px] flex-col p-5">
                     <BlogHeader views={views as number} title={page[page_id].value.properties.title[0][0]} />
-
                     <NotionRenderer blockMap={page} />
                 </div>
             </div>
