@@ -8,7 +8,7 @@ import { AiOutlineEye } from "react-icons/ai";
 
 const Page = async (props: { title: string }) => {
 
-    const page_id = 'a141e912-c034-4212-860c-3984c2d9ea15'
+    const page_id = '3c668b4b-d71e-4b02-a56a-9263c082e05b'
 
     const page = await getPage({ page: page_id })
 

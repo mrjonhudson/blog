@@ -5,6 +5,7 @@ import { NotionRenderer } from "react-notion";
 import "react-notion/src/styles.css";
 import Header from "./components/Header";
 import './globals.css'
+import Footer from "./components/Footer";
 
 
 export default async function Home() {
@@ -16,19 +17,19 @@ export default async function Home() {
     return (
         <main>
             <Header />
-            <div className="flex justify-center">
+            <div className="flex justify-center p-5">
                 {/* <NotionRenderer blockMap={page} /> */}
-                <div className="flex flex-col w-[768px] justify-center gap-3">
+                <div className="flex flex-col w-[768px] gap-3 h-screen">
                     <p className="pt-5">
-                        I build apps, websites and hardware for consumers. Currently building something new at Entrepreneur First.
-                        <br />
-                        <br />
-                        <a className="link" href="https://mrjonhudson.com">
-                            Checkout my portfolio page
-                        </a>
-                        .
+                        I build apps, websites and hardware for consumers. Currently building something new at <span className="hover:font-bold hover:text-[var(--ef-orange)] hover:bg-[var(--ef-purple)]">
+                            Entrepreneur First
+                        </span> 🚀
                     </p>
-                    <h2 className="text-2xl font-semibold">Blog Posts</h2>
+                    <p className="font-semibold">Interested in what I've built?</p>
+                    <a className="link" href="https://mrjonhudson.com">
+                        Checkout my portfolio page
+                    </a>
+                    <h2 className="text-2xl font-semibold pt-5">Blog Posts</h2>
                     <div>
                         {page.map((pg: any, index: number) => (
                             <BlogList key={index} page={pg} />
@@ -36,6 +37,7 @@ export default async function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </main>
     );
 }
