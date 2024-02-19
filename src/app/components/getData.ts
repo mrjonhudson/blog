@@ -1,6 +1,7 @@
 export async function getPage(props: { page: string }) {
     const res = await fetch(
-        `https://notion-api.splitbee.io/v1/page/${props.page}`
+        `https://notion-api.splitbee.io/v1/page/${props.page}`,
+        { next: { revalidate: 3600 } }
     )
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.
@@ -15,7 +16,8 @@ export async function getPage(props: { page: string }) {
 
 export async function getDatabase(props: { page: string }) {
     const res = await fetch(
-        `https://notion-api.splitbee.io/v1/table/${props.page}`
+        `https://notion-api.splitbee.io/v1/table/${props.page}`,
+        { next: { revalidate: 3600 } }
     )
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.

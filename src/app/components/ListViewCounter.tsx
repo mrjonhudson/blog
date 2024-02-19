@@ -1,3 +1,4 @@
+'use client'
 import { kv } from '@vercel/kv'
 import React from 'react'
 import { AiOutlineEye } from 'react-icons/ai'
