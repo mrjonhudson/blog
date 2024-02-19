@@ -7,7 +7,7 @@ import ListViewCounter from "@/app/components/ListViewCounter";
 import { AiOutlineEye } from "react-icons/ai";
 import BlogHeader from "@/app/components/BlogHeader";
 
-const Page = async (props: { title: string }) => {
+const Page = async () => {
 
     const page_id = '60983134-1cac-4d75-a875-00f4d2b6eb99'
 

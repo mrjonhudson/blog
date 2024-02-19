@@ -21,11 +21,11 @@ export default async function Home() {
                 {/* <NotionRenderer blockMap={page} /> */}
                 <div className="flex flex-col w-[768px] gap-3 h-screen">
                     <p className="pt-5">
-                        I build apps, websites and hardware for consumers. Currently building something new at <span className="hover:font-bold hover:text-[var(--ef-orange)] hover:bg-[var(--ef-purple)]">
-                            Entrepreneur First
-                        </span> 🚀
+                        {"I build apps, websites and hardware for consumers. Currently building something new at "}
+                        <span className="hover:font-bold hover:text-[var(--ef-orange)] hover:bg-[var(--ef-purple)]">{"Entrepreneur First"}</span>
+                        {" ."}
                     </p>
-                    <p className="font-semibold">Interested in what I've built?</p>
+                    <p className="font-semibold">{"Interested in what I've built?"}</p>
                     <a className="link" href="https://mrjonhudson.com">
                         Checkout my portfolio page
                     </a>
