@@ -1,9 +1,8 @@
 import { kv } from '@vercel/kv'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { AiOutlineEye } from 'react-icons/ai'
 
 const ListViewCounter = async (props: { page: string }) => {
-
     const views = await kv.hget(props.page, "views")
 
     return (
