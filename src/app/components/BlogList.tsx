@@ -5,6 +5,10 @@ import ListViewCounter from "./ListViewCounter"
 
 const BlogList = (props: { page: any }) => {
 
+    if (!props.page.URL) {
+        return (<></>)
+    }
+
     return (
         <Link className="hover:bg-gray-100 flex-col flex justify-center w-full p-4 rounded-md pb-8"
             href={`/posts/${props.page.URL}`}
