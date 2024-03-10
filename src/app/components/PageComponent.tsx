@@ -6,6 +6,7 @@ import Header from './Header'
 import { getPage } from './getData'
 import Footer from './Footer'
 import "react-notion/src/styles.css";
+import "prismjs/themes/prism-tomorrow.css";
 import BlogFooter from './BlogFooter'
 
 const Page = async (props: { page_id: string }) => {
