@@ -11,5 +11,6 @@ export const map = {
     app_template: 'ec51ffeb-4e89-488f-b9f1-9e7ff271d4b1',
     cdd: '31a6283c-9558-4dc1-bd54-77f1e73c3f45',
     porn: 'ee596573-1bc7-40ea-8146-f85b8a280f8b',
-    llm_rant: 'b428f68a-a666-4bc5-b621-f31e9125c464'
+    llm_rant: 'b428f68a-a666-4bc5-b621-f31e9125c464',
+    gaming: 'a8662eb0-a7a8-460c-b071-7ad464fcf2a9'
 }
