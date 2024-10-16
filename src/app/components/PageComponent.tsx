@@ -1,6 +1,6 @@
 import { kv } from '@vercel/kv'
 import React from 'react'
-import { NotionRenderer } from 'react-notion'
+import { NotionRenderer } from './renderer'
 import BlogHeader from './BlogHeader'
 import Header from './Header'
 import { getPage } from './getData'
